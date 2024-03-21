@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hand Gesture Controller</title>
+    <style>
+        body {
+            background-color: #0a0a0a;
+            color: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .header h1 {
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .card {
+            width: 30%;
+            margin: 1%;
+            float: left;
+            background-color: #333;
+            padding: 20px;
+            box-sizing: border-box;
+            border-radius: 5px;
+        }
+
+        @media (max-width: 768px) {
+            .card {
+                width: 100%;
+            }
+        }
+
+        .card img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto 10px;
+        }
+
+        table {
+            
+            width: 90%;
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+
+        th, td {
+            border: 1px solid #fff;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #444;
+            color: #fff;
+        }
+
+        tr:nth-child(even) {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Hand Gesture Recognition</h1>
+        <img src="{{ url_for('video_feed') }}" alt="Hand Tracking">
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <img src="path_to_image1.jpg" alt="Image 1">
+            <h2>Card 1</h2>
+            <p>Content for Card 1 goes here.</p>
+        </div>
+        <div class="card">
+            <img src="path_to_image2.jpg" alt="Image 2">
+            <h2>Card 2</h2>
+            <p>Content for Card 2 goes here.</p>
+        </div>
+        <div class="card">
+            <img src="path_to_image3.jpg" alt="Image 3">
+            <h2>Card 3</h2>
+            <p>Content for Card 3 goes here.</p>
+        </div>
+        <div class="card">
+            <img src="path_to_image4.jpg" alt="Image 4">
+            <h2>Card 4</h2>
+            <p>Content for Card 4 goes here.</p>
+        </div>
+        <div class="card">
+            <img src="path_to_image5.jpg" alt="Image 5">
+            <h2>Card 5</h2>
+            <p>Content for Card 5 goes here.</p>
+        </div>
+        <div class="card">
+            <img src="path_to_image6.jpg" alt="Image 6">
+            <h2>Card 6</h2>
+            <p>Content for Card 6 goes here.</p>
+            <p> </p>
+        </div>
+    </div>
+    <table>
+        <p> </p>
+        <tr>
+            <th>Method Name</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>update_fingers_status()</td>
+            <td>Updates finger status based on landmarks detected.</td>
+        </tr>
+        <tr>
+            <td>get_position()</td>
+            <td>Calculates the position of the cursor based on the current hand position detected.</td>
+        </tr>
+        <tr>
+            <td>cursor_moving()</td>
+            <td>Moves the cursor based on the position of a specific landmark on the hand.</td>
+        </tr>
+        <tr>
+            <td>detect_scrolling()</td>
+            <td>Detects if the hand gesture indicates scrolling up or down and performs scrolling actions accordingly.</td>
+        </tr>
+        <tr>
+            <td>detect_zoomming()</td>
+            <td>Detects if the hand gesture indicates zooming in or out and performs corresponding actions, such as simulating Ctrl+scroll.</td>
+        </tr>
+        <tr>
+            <td>detect_clicking()</td>
+            <td>Detects left clicks, right clicks, and double clicks based on specific finger positions and performs corresponding actions using pyautogui.</td>
+        </tr>
+        <tr>
+            <td>detect_dragging()</td>
+            <td>Detects if all fingers are down and initiates a dragging action accordingly.</td>
+        </tr>
+        <tr>
+            <td>adjust_volume()</td>
+            <td>Adjusts the system volume based on thumbs-up or thumbs-down gestures.</td>
+        </tr>
+        <tr>
+            <td>take_screenshot_if_three_fingers_up()</td>
+            <td>Takes a screenshot if three fingers are up and none of the other fingers are raised.</td>
+        </tr>
+    </table>
+</body>
+</html>
