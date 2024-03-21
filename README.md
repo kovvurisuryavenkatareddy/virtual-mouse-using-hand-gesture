@@ -33,7 +33,7 @@ The system utilizes MediaPipe for hand tracking and gesture recognition, allowin
 To run this project locally, follow these steps:
 
 1. Clone the repository: `git clone https://github.com/kovvurisuryavenkatareddy/virtual-mouse-using-hand-gesture.git`
-2. Navigate to the project directory: `cd <project_directory>`
+2. Navigate to the project directory: `cd main.py`
 3. Install required Python packages: `pip install flask opencv-python-headless mediapipe pyautogui`
 4. Run the Flask application: `python Main.py`
 5. Open your web browser and navigate to `http://127.0.0.1:5000/` to see the live hand tracking and recognized gestures.
