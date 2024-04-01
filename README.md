@@ -4,11 +4,11 @@ This is a repository for a hand gesture recognition system implemented using Med
 
 ## Table of Contents
 
-[![Description](https://placehold.it/150x50/ffbe0b/fff?text=Description)](#description)
-[![Features](https://placehold.it/150x50/fb5607/fff?text=Features)](#features)
-[![Technologies Used](https://placehold.it/150x50/ff006e/fff?text=Technologies_Used)](#technologies-used)
-[![Installation](https://placehold.it/150x50/8338ec/fff?text=Installation)](#installation)
-[![Usage](https://placehold.it/150x50/3a86ff/fff?text=Usage)](#usage)
+[![<img src="https://placehold.it/150x50/ffbe0b/fff?text=Description" style="font-size: small;">](#description)]
+[![<img src="https://placehold.it/150x50/fb5607/fff?text=Features" style="font-size: small;">](#features)]
+[![<img src="https://placehold.it/150x50/ff006e/fff?text=Technologies_Used" style="font-size: small;">](#technologies-used)]
+[![<img src="https://placehold.it/150x50/8338ec/fff?text=Installation" style="font-size: small;">](#installation)]
+[![<img src="https://placehold.it/150x50/3a86ff/fff?text=Usage" style="font-size: small;">](#usage)]
 
 ## Description
 
