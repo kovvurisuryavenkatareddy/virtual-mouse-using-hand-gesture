@@ -38,7 +38,10 @@
   <li>Python</li>
   <li>Flask</li>
   <li>OpenCV</li>
-  <li>MediaPipe</li>
+  <li>
+    MediaPipe
+    <img src="https://placehold.it/150x50/ff006e/000?text=MediaPipe" width="150" height="50">
+  </li>
 </ul>
 
 <h2 id="installation">Installation</h2>
