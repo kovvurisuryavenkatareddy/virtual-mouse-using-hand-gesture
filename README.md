@@ -9,22 +9,11 @@
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Rubik+Scribble&family=Syne:wght@400..800&display=swap" rel="stylesheet">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-    h1{
-        font-family: "Rubik Scribble", system-ui;
-    }
-    h2{
-        font-family: "Rubik Scribble", system-ui;
-    }
-    p,a{
-        font-family: "Outfit", sans-serif;
-    }
     
-</style>
 </head>
 <body>
 
-<h1>Virtual Mouse Using Hand Gesture Using OpenCV2</h1>
+<h1 style="font-family: 'Rubik Scribble', system-ui;">Virtual Mouse Using Hand Gesture Using OpenCV2</h1>
 
 <p>This is a repository for a hand gesture recognition system implemented using MediaPipe for hand tracking and Flask for web streaming. The system captures video from the webcam, processes it to detect hand gestures in real-time, and displays the live feed along with recognized gestures on a web interface.</p>
 
