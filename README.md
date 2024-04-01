@@ -12,11 +12,12 @@
 
 <h2>Table of Contents</h2>
 
-<a href="#description"><img src="https://placehold.it/150x50/ffbe0b/fff?text=Description"></a>
-<a href="#features"><img src="https://placehold.it/150x50/fb5607/fff?text=Features"></a>
-<a href="#technologies-used"><img src="https://placehold.it/150x50/ff006e/000?text=Technologies_Used"></a>
-<a href="#installation"><img src="https://placehold.it/150x50/8338ec/fff?text=Installation"></a>
-<a href="#usage"><img src="https://placehold.it/150x50/3a86ff/fff?text=Usage"></a>
+<a href="#description" style="font-size: small;"><img src="https://placehold.it/150x50/ffbe0b/fff?text=Description"></a>
+<a href="#features" style="font-size: small;"><img src="https://placehold.it/150x50/fb5607/fff?text=Features"></a>
+<a href="#technologies-used" style="font-size: small;"><img src="https://placehold.it/150x50/ff006e/000?text=Technologies_Used"></a>
+<a href="#installation" style="font-size: small;"><img src="https://placehold.it/150x50/8338ec/fff?text=Installation"></a>
+<a href="#usage" style="font-size: small;"><img src="https://placehold.it/150x50/3a86ff/fff?text=Usage"></a>
+
 
 <h2 id="description">Description</h2>
 
