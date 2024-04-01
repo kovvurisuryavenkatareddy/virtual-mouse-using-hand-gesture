@@ -12,7 +12,7 @@
 
 <h2>Table of Contents</h2>
 
-<a href="#description" style="font-size: small;"><img src="https://placehold.it/150x50/ffbe0b/fff?text=Description"></a>
+<a href="#description" style="font-size: large;"><img src="https://placehold.it/150x50/ffbe0b/fff?text=Description"></a>
 <a href="#features" style="font-size: small;"><img src="https://placehold.it/150x50/fb5607/fff?text=Features"></a>
 <a href="#technologies-used" style="font-size: small;"><img src="https://placehold.it/150x50/ff006e/000?text=Technologies_Used"></a>
 <a href="#installation" style="font-size: small;"><img src="https://placehold.it/150x50/8338ec/fff?text=Installation"></a>
