@@ -36,7 +36,7 @@
 
 <ul>
   <li><img width="48" height="48" src="https://img.icons8.com/fluency/48/python.png" alt="python"/>Python</li>
-  <li><img width="50" height="50" src="https://img.icons8.com/ios/50/000000/flask.png" alt="flask"/>Flask</li>
+  <li><img width="50" height="50" src="https://img.icons8.com/ios/50/flask.png" alt="flask"/>Flask</li>
   <li><img width="48" height="48" src="https://img.icons8.com/color/48/000000/opencv.png" alt="opencv"/>OpenCV</li>
   <li><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLo4FAzwl7u7_1Ou16G_T421GjEwgcF61-fxOXh26F-SB_yrADoZRC6H_r-xwogH2V84I&usqp=CAU" width="50" height="50">MediaPipe</li>
 </ul>
