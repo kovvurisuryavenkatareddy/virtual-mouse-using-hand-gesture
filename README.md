@@ -6,7 +6,7 @@ This is a repository for a hand gesture recognition system implemented using Med
 
 [![Description](https://placehold.it/150x50/ffbe0b/fff?text=Description)](#description)
 [![Features](https://placehold.it/150x50/fb5607/fff?text=Features)](#features)
-[![Technologies Used](https://placehold.it/200x50/ff006e/000?text=Technologies_Used)](#technologies-used)
+[![Technologies Used](https://placehold.it/150x50/ff006e/000?text=Technologies_Used)](#technologies-used)
 [![Installation](https://placehold.it/150x50/8338ec/fff?text=Installation)](#installation)
 [![Usage](https://placehold.it/150x50/3a86ff/fff?text=Usage)](#usage)
 
