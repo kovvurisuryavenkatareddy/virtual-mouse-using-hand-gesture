@@ -1,43 +1,61 @@
-# Virtual Mouse Using Hand Gesture using OpenCV2
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Virtual Mouse Using Hand Gesture</title>
+</head>
+<body>
 
-This is a repository for a hand gesture recognition system implemented using MediaPipe for hand tracking and Flask for web streaming. The system captures video from the webcam, processes it to detect hand gestures in real-time, and displays the live feed along with recognized gestures on a web interface.
+<h1>Virtual Mouse Using Hand Gesture Using OpenCV2</h1>
 
-## Table of Contents
+<p>This is a repository for a hand gesture recognition system implemented using MediaPipe for hand tracking and Flask for web streaming. The system captures video from the webcam, processes it to detect hand gestures in real-time, and displays the live feed along with recognized gestures on a web interface.</p>
 
-[![Description](https://placehold.it/150x50/ffbe0b/fff?text=Description)](#description)
-[![Features](https://placehold.it/150x50/fb5607/fff?text=Features)](#features)
-[![Technologies Used](https://placehold.it/150x50/ff006e/000?text=Technologies_Used)](#technologies-used)
-[![Installation](https://placehold.it/150x50/8338ec/fff?text=Installation)](#installation)
-[![Usage](https://placehold.it/150x50/3a86ff/fff?text=Usage)](#usage)
+<h2>Table of Contents</h2>
 
-## Description
+<a href="#description"><img src="https://placehold.it/150x50/ffbe0b/fff?text=Description"></a>
+<a href="#features"><img src="https://placehold.it/150x50/fb5607/fff?text=Features"></a>
+<a href="#technologies-used"><img src="https://placehold.it/150x50/ff006e/000?text=Technologies_Used"></a>
+<a href="#installation"><img src="https://placehold.it/150x50/8338ec/fff?text=Installation"></a>
+<a href="#usage"><img src="https://placehold.it/150x50/3a86ff/fff?text=Usage"></a>
 
-The system utilizes MediaPipe for hand tracking and gesture recognition, allowing users to control various functionalities using hand gestures. It's designed to be a flexible framework for integrating hand gesture recognition into interactive applications.
+<h2 id="description">Description</h2>
 
-## Features
+<p>The system utilizes MediaPipe for hand tracking and gesture recognition, allowing users to control various functionalities using hand gestures. It's designed to be a flexible framework for integrating hand gesture recognition into interactive applications.</p>
 
-- Real-time hand gesture recognition
-- Detection of various gestures including cursor movement, scrolling, clicking, dragging, etc.
-- Integration with Flask for web streaming
-- Adjustable cursor movement speed and volume control
+<h2 id="features">Features</h2>
 
-## Technologies Used
+<ul>
+  <li>Real-time hand gesture recognition</li>
+  <li>Detection of various gestures including cursor movement, scrolling, clicking, dragging, etc.</li>
+  <li>Integration with Flask for web streaming</li>
+  <li>Adjustable cursor movement speed and volume control</li>
+</ul>
 
-- Python
-- Flask
-- OpenCV
-- MediaPipe
+<h2 id="technologies-used">Technologies Used</h2>
 
-## Installation
+<ul>
+  <li>Python</li>
+  <li>Flask</li>
+  <li>OpenCV</li>
+  <li>MediaPipe</li>
+</ul>
 
-To run this project locally, follow these steps:
+<h2 id="installation">Installation</h2>
 
-1. Clone the repository: `git clone https://github.com/kovvurisuryavenkatareddy/virtual-mouse-using-hand-gesture.git`
-2. Navigate to the project directory: `cd main.py`
-3. Install required Python packages: `pip install flask opencv-python-headless mediapipe pyautogui`
-4. Run the Flask application: `python Main.py`
-5. Open your web browser and navigate to `http://127.0.0.1:5000/` to see the live hand tracking and recognized gestures.
+<p>To run this project locally, follow these steps:</p>
 
-## Usage
+<ol>
+  <li>Clone the repository: <code>git clone https://github.com/kovvurisuryavenkatareddy/virtual-mouse-using-hand-gesture.git</code></li>
+  <li>Navigate to the project directory: <code>cd main.py</code></li>
+  <li>Install required Python packages: <code>pip install flask opencv-python-headless mediapipe pyautogui</code></li>
+  <li>Run the Flask application: <code>python Main.py</code></li>
+  <li>Open your web browser and navigate to <code>http://127.0.0.1:5000/</code> to see the live hand tracking and recognized gestures.</li>
+</ol>
 
-This system can be used for various applications such as controlling presentations, interacting with virtual environments, or enhancing accessibility for users with mobility impairments. It provides a flexible framework for integrating hand gesture recognition into interactive systems and applications.
+<h2 id="usage">Usage</h2>
+
+<p>This system can be used for various applications such as controlling presentations, interacting with virtual environments, or enhancing accessibility for users with mobility impairments. It provides a flexible framework for integrating hand gesture recognition into interactive systems and applications.</p>
+
+</body>
+</html>
