@@ -13,7 +13,7 @@
 </head>
 <body>
 
-<h1 style="font-family: 'Rubik Scribble', system-ui;">Virtual Mouse Using Hand Gesture Using OpenCV2</h1>
+<h1 style="font-family: 'Outfit', sans-serif;">Virtual Mouse Using Hand Gesture Using OpenCV2</h1>
 
 <p>This is a repository for a hand gesture recognition system implemented using MediaPipe for hand tracking and Flask for web streaming. The system captures video from the webcam, processes it to detect hand gestures in real-time, and displays the live feed along with recognized gestures on a web interface.</p>
 
