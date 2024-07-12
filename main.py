@@ -1,9 +1,10 @@
-from flask import Flask, render_template, Response
+from flask import Flask, render_template, Response, send_from_directory
 import cv2  # Import OpenCV for image and video processing
 import mediapipe as mp  # Import MediaPipe library for hand tracking
 from controller import GestureManager  # Import GestureManager class from controller module
+import os
 
-app = Flask(__name__)  # Initialize Flask application
+app = Flask(__name__, static_url_path='/static')  # Initialize Flask application with static folder
 
 manager = GestureManager()  # Create an instance of the GestureManager class
 
@@ -19,8 +20,22 @@ cap.set(cv2.CAP_PROP_AUTOFOCUS, 0)  # Disable autofocus
 
 @app.route('/')  # Define a route for the root URL
 def index():
-    
-    return render_template('index.html')  # Render the index.html template when accessing the root URL
+    # List all images in the static/images folder
+    image_folder = os.path.join('static', 'images')
+    images = {
+        'three_fingers.jpg':'Cursor Moving',
+        'index.jpg': 'Scrolling UP',
+        'little.jpg':'Scrolling Down',
+        'two_fingers.jpg':'Zooming In',
+        'thumb Up.jpg':'Volume Up',
+        'thumb Down.jpg':'Volume Down',
+    }
+    return render_template('index.html', images=images)  # Render the index.html template with images
+
+@app.route('/images/<filename>')  # Define a route to serve images
+def image(filename):
+    image_folder = os.path.join('static', 'images')
+    return send_from_directory(image_folder, filename)
 
 def generate_frames():
     while True:  # Loop indefinitely
@@ -42,7 +57,7 @@ def generate_frames():
             manager.detect_clicking()  # Detect clicking gesture
             manager.detect_dragging()  # Detect dragging gesture
             manager.adjust_volume()  # Adjust volume based on hand gesture
-            manager.take_screenshot_if_three_fingers_up()  # Take screenshot if three fingers are up
+            # manager.take_screenshot_if_three_fingers_up()  # Take screenshot if three fingers are up
 
         ret, buffer = cv2.imencode('.jpg', frame)  # Encode the frame into JPEG format
         frame = buffer.tobytes()  # Convert the frame to bytes

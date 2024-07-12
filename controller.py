@@ -94,7 +94,7 @@ class GestureManager:
     
 
     def detect_zoomming(self):
-        zoomming = self.index_finger_up and self.middle_finger_up and self.ring_finger_down and self.little_finger_down
+        zoomming = self.index_finger_up and self.middle_finger_up and self.ring_finger_down and self.little_finger_down and self.Thump_finger_down
         window = .05 #used to determine if the index finger and middle finger are sufficiently close together to trigger the zooming gesture.
         index_touches_middle = abs(self.hand_Landmarks.landmark[8].x - self.hand_Landmarks.landmark[12].x) <= window
         zoomming_out = zoomming and index_touches_middle

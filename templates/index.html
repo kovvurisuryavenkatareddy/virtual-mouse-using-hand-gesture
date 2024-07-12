@@ -6,7 +6,7 @@
     <title>Hand Gesture Recognition</title>
     <style>
         body {
-            background-color: #000;
+            background: linear-gradient(to right, #FF7E5F, #FEB47B);
             color: #fff;
             font-family: Arial, sans-serif;
         }
@@ -18,6 +18,18 @@
 
         .header h1 {
             margin: 0;
+            padding:10px;
+            color: #fff; /* Bright neon green color */
+        text-shadow: 
+            0 0 5px #f2f28c,
+            0 0 10px #f2f28c,
+            0 0 20px #f2f28c,
+            0 0 40px #f2f28c,
+            0 0 80px #f2f28c;
+        }
+        .header img{
+            border-radius: 10px;
+            border-color:"white";
         }
 
         .container {
@@ -30,7 +42,10 @@
             width: 30%;
             margin: 1%;
             float: left;
-            background-color: #333;
+            background: rgba(255,255,255,0.5);
+            -webkit-backdrop-filter: blur(10px);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.25);
             padding: 20px;
             box-sizing: border-box;
             border-radius: 5px;
@@ -48,8 +63,10 @@
             display: block;
             margin: 0 auto 10px;
         }
+        .card p{
+            color:black;
+        } 
         table {
-            
             width: 100%;
             border-collapse: collapse;
             margin: 20px auto;
@@ -69,17 +86,52 @@
         tr:nth-child(even) {
             background-color: #555;
         }
-        img{
-            width:50%;
-            height:50%;
+
+        img {
+            width: 50%;
+            height: 50%;
         }
+        /* Scrollbar Track */
+        ::-webkit-scrollbar-track {
+            background: #444; 
+        }
+
+        /* Scrollbar Handle */
+        ::-webkit-scrollbar-thumb {
+            background: #FF7E5F;
+            border-radius: 10px;
+        }
+
+        /* Scrollbar Handle on Hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: #FEB47B; 
+        }
+
+        /* Scrollbar Width */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        /* Scrollbar Corner (for horizontal scrollbars) */
+        ::-webkit-scrollbar-corner {
+            background: #444;
+        }
+
     </style>
 </head>
 <body>
     <div class="header">
-        <h1>Hand Gesture </h1>
+        <h1>Hand Gesture Recognition</h1>
         <img src="{{ url_for('video_feed') }}" alt="Hand Tracking">
     </div>
-        
+    <div class="container">
+        {% for image, description in images.items() %}
+        <div class="card">
+            <img src="{{ url_for('image', filename=image) }}" alt="{{ description }}">
+            <center><p>{{ description }}</p></center>
+            
+        </div>
+        {% endfor %}
+    </div>
 </body>
 </html>
