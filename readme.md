@@ -21,13 +21,13 @@
 
 <h2>Table of Contents</h2>
 
-<div>
+<h2>
         <a href="#description">Description</a>
         <a href="#features">Features</a>
         <a href="#technologies-used">Technologies Used</a>
         <a href="#installation">Installation</a>
         <a href="#usage">Usage</a>
-    </div>
+    </h2>
 
 
 
