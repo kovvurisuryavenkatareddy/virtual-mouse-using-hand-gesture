@@ -1,3 +1,4 @@
+# python version 3.11.4
 flask==3.0.2
 opencv-python==4.9.0.80
 mediapipe==0.10.10
