@@ -21,13 +21,14 @@
 
 <h2>Table of Contents</h2>
 
-<div style="display: flex; gap: 10px; background-color: #f4f4f4; padding: 10px; justify-content: center;">
-        <a href="#description" style="text-decoration: none; padding: 10px 20px; background-color: #007BFF; color: white; border-radius: 5px; font-weight: bold;">Description</a>
-        <a href="#features" style="text-decoration: none; padding: 10px 20px; background-color: #fb5607; color: white; border-radius: 5px; font-weight: bold;">Features</a>
-        <a href="#technologies-used" style="text-decoration: none; padding: 10px 20px; background-color: #ff006e; color: white; border-radius: 5px; font-weight: bold;">Technologies Used</a>
-        <a href="#installation" style="text-decoration: none; padding: 10px 20px; background-color: #8338ec; color: white; border-radius: 5px; font-weight: bold;">Installation</a>
-        <a href="#usage" style="text-decoration: none; padding: 10px 20px; background-color: #3a86ff; color: white; border-radius: 5px; font-weight: bold;">Usage</a>
+<div>
+        <a href="#description">Description</a>
+        <a href="#features">Features</a>
+        <a href="#technologies-used">Technologies Used</a>
+        <a href="#installation">Installation</a>
+        <a href="#usage">Usage</a>
     </div>
+
 
 
 <h2 id="description">Description</h2>
